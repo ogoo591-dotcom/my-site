@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background: #0b0f17;
+  color: #e5e7eb;
+  display: grid;
+  place-items: center;
+  font-family: system-ui, Inter, Arial;
+  background-image: url(1.shooBack.jpg);
+}
+
+.huree {
+  width: 90vw;
+  height: 50vh;
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 1000px;
+  height: 600px;
+  background: #84b1c4;
+  border-radius: 24px;
+  border: 1px solid #10ddf8;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  gap: 12px;
+  align-items: start;
+  flex-direction: column;
+}
+.title {
+  font-weight: 800;
+  font-size: clamp(20px, 3vw, 28px);
+  color: #ebecef;
+}
+.right {
+  display: flex;
+  gap: 24px;
+}
+.roll {
+  color: #074685;
+  font-size: 20px;
+  width: 120px;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  background-color: #cdd3df;
+  margin: 20px;
+}
+.rollZuw {
+  background-color: orange;
+  font-size: 20px;
+  width: 120px;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  margin: 20px;
+  color: #074685;
+  margin-left: 400px;
+}
+.img {
+  width: 200px;
+  height: 200px;
+  margin-top: 80px;
+  margin-left: 350px;
+}

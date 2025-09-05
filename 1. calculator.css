@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.huree {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: grey;
+  background-image: url(./picture/1.calculator.png);
+}
+.zurag {
+  width: 600px;
+  height: 900px;
+}
+.hairtsag {
+  width: 320px;
+  height: 600px;
+  background-color: rgb(16, 16, 16);
+  border-radius: 50px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  border: 3px solid white;
+}
+.calcHeader {
+  margin-top: 90px;
+  padding: 12px;
+  height: 100px;
+  width: 100%;
+}
+
+.calcFooter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+  gap: 15px;
+}
+.btn {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(107, 103, 103);
+  font-size: 18px;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.btn:hover {
+  transform: translate(-2px, -3px);
+  background-color: rgb(196, 197, 197);
+  color: black;
+}
+.btnNemeh {
+  background-color: orange;
+}
+
+.btnTeg {
+  width: 135px;
+  height: 60px;
+  font-size: 18px;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  background-color: orange;
+}
+.btnTeg image {
+  width: 100px;
+  height: 50px;
+}
+.btnTeg:hover {
+  transform: translate(-2px, -3px);
+  background-color: rgb(196, 197, 197);
+  color: black;
+}
+.screen {
+  color: white;
+  font-size: 42px;
+  font-weight: 600px;
+  text-align: right;
+  padding-right: 16px;
+}

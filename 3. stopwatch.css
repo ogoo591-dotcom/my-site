@@ -1,0 +1,69 @@
+.huree {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.too {
+  width: 350px;
+  height: 500px;
+  background-color: rgb(60, 60, 60);
+  border: none;
+  box-shadow: -10px -10px 10px 10px rgb(8, 114, 56);
+}
+.deed {
+  width: 100%;
+  height: 50%;
+  border: 0.01px solid rgb(119, 114, 114);
+  display: flex;
+  flex-direction: column;
+}
+.tsag {
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  text-shadow: 2px 2px grey;
+  color: rgb(53, 208, 102);
+}
+.towch {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  cursor: pointer;
+}
+.start-click {
+  width: 80px;
+  height: 40px;
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-size: 13px;
+  cursor: pointer;
+}
+.pause-click {
+  width: 80px;
+  height: 40px;
+  background-color: rgb(40, 41, 40);
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-size: 13px;
+  cursor: pointer;
+}
+.reset-click {
+  width: 80px;
+  height: 40px;
+  background-color: rgb(169, 31, 37);
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-size: 13px;
+  cursor: pointer;
+}
+.zurag {
+  width: 300px;
+  height: 200px;
+  margin: 25px 25px;
+}
